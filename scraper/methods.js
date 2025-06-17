@@ -17,6 +17,7 @@ const delay = function (second = 1) {   // Delay Helper
 */
 
 const URL = "https://www.carmax.com/";
+const STORES_URL = "https://www.carmax.com/stores";
 
 const SEARCH_BTN = '//hzn-button[@class="hero-featured-content--cta"]';
 
@@ -39,10 +40,35 @@ const carMaxSkrp = {
         page = await browser.newPage();
         console.log('\n>> Initiated browser and opened page...\n')
 
-        // Navigate to ACV
+        // Navigate to Carmax
         await page.goto(URL, {waitUntil: "load", timeout: 60000});
         console.log('>> Initialized & Navigated to CarMax ...\n');
         await delay(2);
+    },
+    getStores: async () => {
+        console.log('>> Going to Stores URL...\n');
+        
+        // Await Stores Request
+        const responsePromise = page.waitForResponse(response => response.url().includes("stores"));
+        
+        // Navigate to Carmax Stores page
+        await page.goto(STORES_URL, {waitUntil: "load", timeout: 60000});
+        
+        const resp = await responsePromise;
+        console.log('>> Got Stores URL Info...\n');
+        
+        // Cant Parse the html file
+        // Need to convert it to string
+        // Then split at "allStores"
+        // JSON stringify the result[1]
+        // then JSON.parse it into object?
+
+        const data = await resp.json();
+
+        
+        console.log(data)
+
+
     },
     clickSearch: async () => {
         console.log('>> Attempting to Click Search...\n');

@@ -8,22 +8,26 @@ const CARMAX = require('./methods.js');
 
     await CARMAX.initialize();
 
+
+await CARMAX.getStores();
     
-    await CARMAX.clickSearch();
+    // await CARMAX.clickSearch();
 
 
 
-    // (1) Need to get button to click See More
-    let i = 0;
+    // // (1) Need to get button to click See More
+    // let i = 0;
 
 
-    while (i < 3625) {
-        let data = await CARMAX.interceptRequest();
-        console.log(`> Gathering Info on Batch ${i}/3625`);
 
-        await CARMAX.jsonizeAppend(data, "CarMax-6-16-25")
-        i++;
-    }
+
+    // while (i < 3625) {
+    //     let data = await CARMAX.interceptRequest();
+    //     console.log(`> Gathering Info on Batch ${i}/3625`);
+
+    //     await CARMAX.jsonizeAppend(data, "CarMax-6-16-25")
+    //     i++;
+    // }
 
 
 
