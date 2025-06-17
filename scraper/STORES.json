@@ -1,0 +1,2026 @@
+[
+  {
+    "id": "4400",
+    "name": "Peachtree",
+    "lat": 33.89543,
+    "long": -84.30492,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "6001",
+    "name": "Newark",
+    "lat": 39.68195,
+    "long": -75.7266,
+    "city": "Philadelphia",
+    "state": "de"
+  },
+  {
+    "id": "6002",
+    "name": "Murrieta",
+    "lat": 33.54886,
+    "long": -117.19102,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "6003",
+    "name": "Palmdale",
+    "lat": 34.567,
+    "long": -118.14529,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "6004",
+    "name": "Des Moines",
+    "lat": 41.61503,
+    "long": -93.75976,
+    "city": "Des Moines",
+    "state": "ia"
+  },
+  {
+    "id": "6005",
+    "name": "Salem",
+    "lat": 44.92492,
+    "long": -122.98364,
+    "city": "Salem",
+    "state": "or"
+  },
+  {
+    "id": "6007",
+    "name": "O'Fallon",
+    "lat": 38.58633,
+    "long": -89.94061,
+    "city": "St Louis",
+    "state": "il"
+  },
+  {
+    "id": "6008",
+    "name": "Brooklyn Park",
+    "lat": 45.08092,
+    "long": -93.37446,
+    "city": "Minneapolis / St. Paul",
+    "state": "mn"
+  },
+  {
+    "id": "6010",
+    "name": "Parker",
+    "lat": 39.56,
+    "long": -104.78445,
+    "city": "Denver",
+    "state": "co"
+  },
+  {
+    "id": "6011",
+    "name": "Maple Shade",
+    "lat": 39.94267,
+    "long": -74.98738,
+    "city": "Philadelphia",
+    "state": "nj"
+  },
+  {
+    "id": "6012",
+    "name": "Stockton",
+    "lat": 38.01216,
+    "long": -121.27226,
+    "city": "Sacramento / Roseville",
+    "state": "ca"
+  },
+  {
+    "id": "6013",
+    "name": "Mechanicsburg",
+    "lat": 40.24626,
+    "long": -77.02488,
+    "city": "Lancaster",
+    "state": "pa"
+  },
+  {
+    "id": "6014",
+    "name": "Oxnard",
+    "lat": 34.2215,
+    "long": -119.15208,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "6015",
+    "name": "Winchester",
+    "lat": 39.1594,
+    "long": -78.18163,
+    "city": "Baltimore / DC",
+    "state": "va"
+  },
+  {
+    "id": "6016",
+    "name": "Lakeland",
+    "lat": 28.08316,
+    "long": -81.96824,
+    "city": "Tampa / Clearwater",
+    "state": "fl"
+  },
+  {
+    "id": "6017",
+    "name": "Akron",
+    "lat": 40.98814,
+    "long": -81.48983,
+    "city": "Cleveland",
+    "state": "oh"
+  },
+  {
+    "id": "6018",
+    "name": "Norwood",
+    "lat": 42.16939,
+    "long": -71.19623,
+    "city": "Boston",
+    "state": "ma"
+  },
+  {
+    "id": "6020",
+    "name": "Myrtle Beach",
+    "lat": 33.75208,
+    "long": -78.96062,
+    "city": "Myrtle Beach",
+    "state": "sc"
+  },
+  {
+    "id": "6021",
+    "name": "Savannah",
+    "lat": 31.99603,
+    "long": -81.12863,
+    "city": "Savannah",
+    "state": "ga"
+  },
+  {
+    "id": "6022",
+    "name": "Wilmington",
+    "lat": 34.25241,
+    "long": -77.85166,
+    "city": "Wilmington",
+    "state": "nc"
+  },
+  {
+    "id": "6024",
+    "name": "West 104th Ave",
+    "lat": 39.88492,
+    "long": -105.02004,
+    "city": "Denver",
+    "state": "co"
+  },
+  {
+    "id": "6025",
+    "name": "Columbus",
+    "lat": 32.52964,
+    "long": -84.95828,
+    "city": "Columbus GA",
+    "state": "ga"
+  },
+  {
+    "id": "6027",
+    "name": "St. Louis - South Lindbergh",
+    "lat": 38.51665,
+    "long": -90.34285,
+    "city": "St Louis",
+    "state": "mo"
+  },
+  {
+    "id": "6031",
+    "name": "Buford",
+    "lat": 34.08498,
+    "long": -83.99034,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "6032",
+    "name": "Frederick",
+    "lat": 39.38743,
+    "long": -77.40269,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "6034",
+    "name": "Salisbury",
+    "lat": 38.3871,
+    "long": -75.58,
+    "city": "Salisbury",
+    "state": "md"
+  },
+  {
+    "id": "6035",
+    "name": "Ft. Myers",
+    "lat": 26.59721,
+    "long": -81.8493,
+    "city": "Ft. Myers / Naples",
+    "state": "fl"
+  },
+  {
+    "id": "6036",
+    "name": "Naples",
+    "lat": 26.15697,
+    "long": -81.76521,
+    "city": "Ft. Myers / Naples",
+    "state": "fl"
+  },
+  {
+    "id": "6037",
+    "name": "Gainesville",
+    "lat": 29.69037,
+    "long": -82.3193,
+    "city": "Gainesville",
+    "state": "fl"
+  },
+  {
+    "id": "6038",
+    "name": "El Paso",
+    "lat": 31.73519,
+    "long": -106.31346,
+    "city": "El Paso",
+    "state": "tx"
+  },
+  {
+    "id": "6039",
+    "name": "Boise (Meridian)",
+    "lat": 43.62591,
+    "long": -116.42238,
+    "city": "Boise",
+    "state": "id"
+  },
+  {
+    "id": "6040",
+    "name": "Spokane",
+    "lat": 47.65679,
+    "long": -117.29931,
+    "city": "Spokane",
+    "state": "wa"
+  },
+  {
+    "id": "6041",
+    "name": "Grand Rapids (Kentwood)",
+    "lat": 42.91246,
+    "long": -85.55708,
+    "city": "Grand Rapids-Kalamazoo",
+    "state": "mi"
+  },
+  {
+    "id": "6042",
+    "name": "Cool Springs",
+    "lat": 35.93647,
+    "long": -86.82347,
+    "city": "Nashville",
+    "state": "tn"
+  },
+  {
+    "id": "6043",
+    "name": "Rochester",
+    "lat": 43.08016,
+    "long": -77.64044,
+    "city": "Rochester-Buffalo",
+    "state": "ny"
+  },
+  {
+    "id": "6045",
+    "name": "South Broadway",
+    "lat": 39.61165,
+    "long": -104.98795,
+    "city": "Denver",
+    "state": "co"
+  },
+  {
+    "id": "6047",
+    "name": "Golden",
+    "lat": 39.72678,
+    "long": -105.18523,
+    "city": "Denver",
+    "state": "co"
+  },
+  {
+    "id": "6048",
+    "name": "Fairfield",
+    "lat": 38.24371,
+    "long": -122.08179,
+    "city": "Sacramento / Roseville",
+    "state": "ca"
+  },
+  {
+    "id": "6049",
+    "name": "Albany",
+    "lat": 42.73371,
+    "long": -73.85137,
+    "city": "Albany",
+    "state": "ny"
+  },
+  {
+    "id": "6050",
+    "name": "Tallahassee",
+    "lat": 30.45829,
+    "long": -84.34988,
+    "city": "Tallahassee",
+    "state": "fl"
+  },
+  {
+    "id": "6051",
+    "name": "Dothan",
+    "lat": 31.2102,
+    "long": -85.4265,
+    "city": "Dothan",
+    "state": "al"
+  },
+  {
+    "id": "6052",
+    "name": "St. Louis - Mid Rivers Mall",
+    "lat": 38.79849,
+    "long": -90.58377,
+    "city": "St Louis",
+    "state": "mo"
+  },
+  {
+    "id": "6054",
+    "name": "Tupelo",
+    "lat": 34.32894,
+    "long": -88.69305,
+    "city": "Tupelo",
+    "state": "ms"
+  },
+  {
+    "id": "6055",
+    "name": "Harrisonburg",
+    "lat": 38.41797,
+    "long": -78.89624,
+    "city": "Harrisonburg",
+    "state": "va"
+  },
+  {
+    "id": "6056",
+    "name": "Lynchburg",
+    "lat": 37.34274,
+    "long": -79.193,
+    "city": "Lynchburg",
+    "state": "va"
+  },
+  {
+    "id": "6057",
+    "name": "Madison",
+    "lat": 43.05599,
+    "long": -89.49558,
+    "city": "Madison",
+    "state": "wi"
+  },
+  {
+    "id": "6058",
+    "name": "Jackson (TN)",
+    "lat": 35.66382,
+    "long": -88.85966,
+    "city": "Jackson TN",
+    "state": "tn"
+  },
+  {
+    "id": "6059",
+    "name": "Buffalo",
+    "lat": 43.00611,
+    "long": -78.82222,
+    "city": "Rochester-Buffalo",
+    "state": "ny"
+  },
+  {
+    "id": "6061",
+    "name": "Pensacola",
+    "lat": 30.48329,
+    "long": -87.25659,
+    "city": "Mobile-Pensacola",
+    "state": "fl"
+  },
+  {
+    "id": "6063",
+    "name": "Danvers",
+    "lat": 42.56506,
+    "long": -70.98142,
+    "city": "Boston",
+    "state": "ma"
+  },
+  {
+    "id": "6064",
+    "name": "Visalia",
+    "lat": 36.34813,
+    "long": -119.31382,
+    "city": "Fresno",
+    "state": "ca"
+  },
+  {
+    "id": "6065",
+    "name": "Puyallup",
+    "lat": 47.20672,
+    "long": -122.29564,
+    "city": "Seattle",
+    "state": "wa"
+  },
+  {
+    "id": "6067",
+    "name": "Westborough",
+    "lat": 42.28415,
+    "long": -71.62365,
+    "city": "Boston",
+    "state": "ma"
+  },
+  {
+    "id": "6068",
+    "name": "Pleasanton",
+    "lat": 37.69742,
+    "long": -121.85024,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6070",
+    "name": "Waterbury",
+    "lat": 41.53987,
+    "long": -72.97701,
+    "city": "Hartford -  New Haven",
+    "state": "ct"
+  },
+  {
+    "id": "6071",
+    "name": "Fremont",
+    "lat": 37.50182,
+    "long": -121.96633,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6072",
+    "name": "Capitol Expressway",
+    "lat": 37.27487,
+    "long": -121.86843,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6073",
+    "name": "Jensen Beach",
+    "lat": 27.2465,
+    "long": -80.26953,
+    "city": "West Palm / Boynton Beach",
+    "state": "fl"
+  },
+  {
+    "id": "6074",
+    "name": "Centennial",
+    "lat": 36.25095,
+    "long": -115.24004,
+    "city": "Las Vegas",
+    "state": "nv"
+  },
+  {
+    "id": "6075",
+    "name": "Easton",
+    "lat": 40.72146,
+    "long": -75.29478,
+    "city": "Philadelphia",
+    "state": "pa"
+  },
+  {
+    "id": "6077",
+    "name": "Santa Rosa",
+    "lat": 38.41213,
+    "long": -122.71653,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6080",
+    "name": "Serramonte",
+    "lat": 37.67776,
+    "long": -122.4558,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6081",
+    "name": "Fort Bend",
+    "lat": 29.55713,
+    "long": -95.70452,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "6082",
+    "name": "Bristol",
+    "lat": 36.55211,
+    "long": -82.2828,
+    "city": "Tri-Cities",
+    "state": "tn"
+  },
+  {
+    "id": "6084",
+    "name": "Bloomington",
+    "lat": 40.49032,
+    "long": -88.95233,
+    "city": "Peoria / Bloomington",
+    "state": "il"
+  },
+  {
+    "id": "6086",
+    "name": "South Portland",
+    "lat": 43.63522,
+    "long": -70.33733,
+    "city": "Portland, ME",
+    "state": "me"
+  },
+  {
+    "id": "6087",
+    "name": "Wayne",
+    "lat": 40.94303,
+    "long": -74.2705,
+    "city": "New York, NY",
+    "state": "nj"
+  },
+  {
+    "id": "6089",
+    "name": "Pharr",
+    "lat": 26.17162,
+    "long": -98.18544,
+    "city": "McAllen",
+    "state": "tx"
+  },
+  {
+    "id": "6090",
+    "name": "Corpus Christi",
+    "lat": 27.69203,
+    "long": -97.33731,
+    "city": "Corpus Christi",
+    "state": "tx"
+  },
+  {
+    "id": "6092",
+    "name": "Greenville NC",
+    "lat": 35.5525,
+    "long": -77.40499,
+    "city": "Greenville, NC",
+    "state": "nc"
+  },
+  {
+    "id": "6094",
+    "name": "McKinney",
+    "lat": 33.17408,
+    "long": -96.68595,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "6095",
+    "name": "Denton",
+    "lat": 33.16929,
+    "long": -97.08401,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "6098",
+    "name": "Edison",
+    "lat": 40.51506,
+    "long": -74.36785,
+    "city": "New York, NY",
+    "state": "nj"
+  },
+  {
+    "id": "6102",
+    "name": "East Meadow",
+    "lat": 40.72433,
+    "long": -73.56235,
+    "city": "New York, NY",
+    "state": "ny"
+  },
+  {
+    "id": "6103",
+    "name": "Bradenton",
+    "lat": 27.44625,
+    "long": -82.57532,
+    "city": "Tampa / Clearwater",
+    "state": "fl"
+  },
+  {
+    "id": "6104",
+    "name": "Pleasant Hill",
+    "lat": 37.97492,
+    "long": -122.06704,
+    "city": "San Francisco",
+    "state": "ca"
+  },
+  {
+    "id": "6105",
+    "name": "Smithtown",
+    "lat": 40.85813,
+    "long": -73.16454,
+    "city": "New York, NY",
+    "state": "ny"
+  },
+  {
+    "id": "6106",
+    "name": "Gulfport",
+    "lat": 30.47515,
+    "long": -89.08425,
+    "city": "Biloxi - Gulfport",
+    "state": "ms"
+  },
+  {
+    "id": "6107",
+    "name": "Manchester",
+    "lat": 42.95376,
+    "long": -71.4413,
+    "city": "Boston",
+    "state": "nh"
+  },
+  {
+    "id": "6108",
+    "name": "Tyler",
+    "lat": 32.31702,
+    "long": -95.34126,
+    "city": "Tyler",
+    "state": "tx"
+  },
+  {
+    "id": "6110",
+    "name": "Kenner",
+    "lat": 30.01438,
+    "long": -90.24514,
+    "city": "New Orleans",
+    "state": "la"
+  },
+  {
+    "id": "6112",
+    "name": "Santa Fe",
+    "lat": 35.62162,
+    "long": -106.02772,
+    "city": "Albuquerque-Santa Fe",
+    "state": "nm"
+  },
+  {
+    "id": "6113",
+    "name": "Palm Desert",
+    "lat": 33.7618,
+    "long": -116.32298,
+    "city": "Palm Springs",
+    "state": "ca"
+  },
+  {
+    "id": "6116",
+    "name": "Warner Robins",
+    "lat": 32.60121,
+    "long": -83.67296,
+    "city": "Macon",
+    "state": "ga"
+  },
+  {
+    "id": "6121",
+    "name": "Shreveport",
+    "lat": 32.41771,
+    "long": -93.72361,
+    "city": "Shreveport",
+    "state": "la"
+  },
+  {
+    "id": "6123",
+    "name": "Lafayette",
+    "lat": 30.17059,
+    "long": -92.08119,
+    "city": "Lafayette",
+    "state": "la"
+  },
+  {
+    "id": "6125",
+    "name": "Algonquin",
+    "lat": 42.17198,
+    "long": -88.31378,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "6128",
+    "name": "Killeen",
+    "lat": 31.08417,
+    "long": -97.70726,
+    "city": "Waco",
+    "state": "tx"
+  },
+  {
+    "id": "6133",
+    "name": "North Shore",
+    "lat": 30.44471,
+    "long": -90.0638,
+    "city": "New Orleans",
+    "state": "la"
+  },
+  {
+    "id": "6134",
+    "name": "Montgomery",
+    "lat": 32.35628,
+    "long": -86.22623,
+    "city": "Montgomery",
+    "state": "al"
+  },
+  {
+    "id": "6135",
+    "name": "Ocala",
+    "lat": 29.1328,
+    "long": -82.20306,
+    "city": "Gainesville",
+    "state": "fl"
+  },
+  {
+    "id": "6136",
+    "name": "Clermont",
+    "lat": 28.54662,
+    "long": -81.68041,
+    "city": "Orlando",
+    "state": "fl"
+  },
+  {
+    "id": "6137",
+    "name": "Germantown",
+    "lat": 35.05169,
+    "long": -89.81346,
+    "city": "Memphis",
+    "state": "tn"
+  },
+  {
+    "id": "6138",
+    "name": "Murfreesboro",
+    "lat": 35.8711,
+    "long": -86.46777,
+    "city": "Nashville",
+    "state": "tn"
+  },
+  {
+    "id": "6140",
+    "name": "Athens",
+    "lat": 33.9406,
+    "long": -83.46799,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "6141",
+    "name": "Royal Palm Beach",
+    "lat": 26.68062,
+    "long": -80.2128,
+    "city": "West Palm / Boynton Beach",
+    "state": "fl"
+  },
+  {
+    "id": "6142",
+    "name": "Fort Wayne",
+    "lat": 41.1104,
+    "long": -85.13531,
+    "city": "Fort Wayne",
+    "state": "in"
+  },
+  {
+    "id": "6146",
+    "name": "Lubbock",
+    "lat": 33.53432,
+    "long": -101.95643,
+    "city": "Lubbock",
+    "state": "tx"
+  },
+  {
+    "id": "6148",
+    "name": "Green Brook",
+    "lat": 40.60472,
+    "long": -74.47304,
+    "city": "New York, NY",
+    "state": "nj"
+  },
+  {
+    "id": "6149",
+    "name": "Jacksonville",
+    "lat": 34.77234,
+    "long": -77.38236,
+    "city": "Greenville, SC",
+    "state": "nc"
+  },
+  {
+    "id": "6152",
+    "name": "Springfield",
+    "lat": 37.20115,
+    "long": -93.22748,
+    "city": "Springfield MO",
+    "state": "mo"
+  },
+  {
+    "id": "6154",
+    "name": "Roanoke",
+    "lat": 37.31803,
+    "long": -80.0023,
+    "city": "Roanoke",
+    "state": "va"
+  },
+  {
+    "id": "6156",
+    "name": "Norco",
+    "lat": 33.90964,
+    "long": -117.55584,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "6157",
+    "name": "Victorville",
+    "lat": 34.51478,
+    "long": -117.32369,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "6161",
+    "name": "Scottsdale",
+    "lat": 33.62531,
+    "long": -111.90003,
+    "city": "Phoenix",
+    "state": "az"
+  },
+  {
+    "id": "6163",
+    "name": "Oceanside",
+    "lat": 33.18201,
+    "long": -117.29564,
+    "city": "San Diego",
+    "state": "ca"
+  },
+  {
+    "id": "6164",
+    "name": "Joliet",
+    "lat": 41.57548,
+    "long": -88.20089,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "6168",
+    "name": "Mays Landing",
+    "lat": 39.4449,
+    "long": -74.6248,
+    "city": "Philadelphia",
+    "state": "nj"
+  },
+  {
+    "id": "6170",
+    "name": "Tucson East",
+    "lat": 32.2069,
+    "long": -110.9062,
+    "city": "Tucson",
+    "state": "az"
+  },
+  {
+    "id": "6174",
+    "name": "Alliance",
+    "lat": 32.92819,
+    "long": -97.32662,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "6176",
+    "name": "Amarillo",
+    "lat": 35.15049,
+    "long": -101.93186,
+    "city": "Amarillo",
+    "state": "tx"
+  },
+  {
+    "id": "6177",
+    "name": "College Station",
+    "lat": 30.56103,
+    "long": -96.27083,
+    "city": "Bryan-College Station",
+    "state": "tx"
+  },
+  {
+    "id": "6178",
+    "name": "Gainesville",
+    "lat": 34.27633,
+    "long": -83.8684,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "6179",
+    "name": "El Paso West",
+    "lat": 31.87502,
+    "long": -106.58059,
+    "city": "El Paso",
+    "state": "tx"
+  },
+  {
+    "id": "7100",
+    "name": "Langhorne",
+    "lat": 40.17394,
+    "long": -74.88842,
+    "city": "Philadelphia",
+    "state": "pa"
+  },
+  {
+    "id": "7101",
+    "name": "West Broad",
+    "lat": 37.64805,
+    "long": -77.59114,
+    "city": "Richmond",
+    "state": "va"
+  },
+  {
+    "id": "7102",
+    "name": "Raleigh",
+    "lat": 35.88291,
+    "long": -78.73879,
+    "city": "Raleigh",
+    "state": "nc"
+  },
+  {
+    "id": "7103",
+    "name": "Town Center",
+    "lat": 34.00213,
+    "long": -84.57973,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7104",
+    "name": "Norcross",
+    "lat": 33.93257,
+    "long": -84.17696,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7105",
+    "name": "Tampa",
+    "lat": 28.08694,
+    "long": -82.45148,
+    "city": "Tampa / Clearwater",
+    "state": "fl"
+  },
+  {
+    "id": "7106",
+    "name": "Independence Boulevard",
+    "lat": 35.15893,
+    "long": -80.7329,
+    "city": "Charlotte",
+    "state": "nc"
+  },
+  {
+    "id": "7107",
+    "name": "Orlando",
+    "lat": 28.47115,
+    "long": -81.30988,
+    "city": "Orlando",
+    "state": "fl"
+  },
+  {
+    "id": "7108",
+    "name": "Ft. Lauderdale",
+    "lat": 26.09552,
+    "long": -80.24327,
+    "city": "Ft. Lauderdale",
+    "state": "fl"
+  },
+  {
+    "id": "7109",
+    "name": "Garland",
+    "lat": 32.86483,
+    "long": -96.66131,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "7110",
+    "name": "Doral",
+    "lat": 25.78479,
+    "long": -80.35677,
+    "city": "Miami",
+    "state": "fl"
+  },
+  {
+    "id": "7111",
+    "name": "Southwest Freeway",
+    "lat": 29.70731,
+    "long": -95.50914,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "7112",
+    "name": "Arlington / Ft. Worth",
+    "lat": 32.76243,
+    "long": -97.17336,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "7113",
+    "name": "Boynton Beach",
+    "lat": 26.54765,
+    "long": -80.07311,
+    "city": "West Palm / Boynton Beach",
+    "state": "fl"
+  },
+  {
+    "id": "7114",
+    "name": "North Houston",
+    "lat": 30.00593,
+    "long": -95.42641,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "7115",
+    "name": "Texas Stadium (Irving)",
+    "lat": 32.8418,
+    "long": -96.90064,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "7116",
+    "name": "Gulf Freeway",
+    "lat": 29.61041,
+    "long": -95.21066,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "7117",
+    "name": "Southlake",
+    "lat": 33.5499,
+    "long": -84.28949,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7118",
+    "name": "Laurel",
+    "lat": 39.12856,
+    "long": -76.82509,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7120",
+    "name": "Ontario",
+    "lat": 34.07183,
+    "long": -117.55983,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7121",
+    "name": "White Marsh",
+    "lat": 39.3711,
+    "long": -76.44537,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7122",
+    "name": "Naperville",
+    "lat": 41.80706,
+    "long": -88.20987,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7123",
+    "name": "Tinley Park",
+    "lat": 41.54741,
+    "long": -87.78351,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7124",
+    "name": "Canoga Park",
+    "lat": 34.21972,
+    "long": -118.59617,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7126",
+    "name": "Burbank",
+    "lat": 34.17144,
+    "long": -118.30294,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7128",
+    "name": "Schaumburg",
+    "lat": 42.04979,
+    "long": -88.07364,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7129",
+    "name": "Buena Park",
+    "lat": 33.87045,
+    "long": -118.00329,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7130",
+    "name": "Virginia Beach",
+    "lat": 36.83917,
+    "long": -76.10599,
+    "city": "Virginia Beach",
+    "state": "va"
+  },
+  {
+    "id": "7132",
+    "name": "Dulles",
+    "lat": 39.00947,
+    "long": -77.43456,
+    "city": "Baltimore / DC",
+    "state": "va"
+  },
+  {
+    "id": "7136",
+    "name": "San Gabriel Valley / Duarte",
+    "lat": 34.13604,
+    "long": -117.97972,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7144",
+    "name": "Indianapolis",
+    "lat": 39.92889,
+    "long": -86.08882,
+    "city": "Indianapolis",
+    "state": "in"
+  },
+  {
+    "id": "7146",
+    "name": "Hillside (Eisenhower Expy)",
+    "lat": 41.87174,
+    "long": -87.90231,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7147",
+    "name": "Sacramento / Roseville",
+    "lat": 38.75626,
+    "long": -121.25671,
+    "city": "Sacramento / Roseville",
+    "state": "ca"
+  },
+  {
+    "id": "7148",
+    "name": "Jacksonville",
+    "lat": 30.32312,
+    "long": -81.50262,
+    "city": "Jacksonville",
+    "state": "fl"
+  },
+  {
+    "id": "7149",
+    "name": "Sacramento South",
+    "lat": 38.45951,
+    "long": -121.41057,
+    "city": "Sacramento / Roseville",
+    "state": "ca"
+  },
+  {
+    "id": "7150",
+    "name": "Nashville",
+    "lat": 36.1064,
+    "long": -86.76428,
+    "city": "Nashville",
+    "state": "tn"
+  },
+  {
+    "id": "7151",
+    "name": "Greenwood",
+    "lat": 39.70542,
+    "long": -86.10115,
+    "city": "Indianapolis",
+    "state": "in"
+  },
+  {
+    "id": "7152",
+    "name": "San Antonio",
+    "lat": 29.51859,
+    "long": -98.55657,
+    "city": "San Antonio",
+    "state": "tx"
+  },
+  {
+    "id": "7154",
+    "name": "Austin North",
+    "lat": 30.41964,
+    "long": -97.66882,
+    "city": "Austin",
+    "state": "tx"
+  },
+  {
+    "id": "7157",
+    "name": "Henderson",
+    "lat": 36.05646,
+    "long": -115.03093,
+    "city": "Las Vegas",
+    "state": "nv"
+  },
+  {
+    "id": "7159",
+    "name": "Modesto",
+    "lat": 37.70192,
+    "long": -120.99449,
+    "city": "Modesto",
+    "state": "ca"
+  },
+  {
+    "id": "7164",
+    "name": "Beaverton",
+    "lat": 45.45564,
+    "long": -122.7851,
+    "city": "Portland, OR",
+    "state": "or"
+  },
+  {
+    "id": "7165",
+    "name": "Cleveland East",
+    "lat": 41.42541,
+    "long": -81.50555,
+    "city": "Cleveland",
+    "state": "oh"
+  },
+  {
+    "id": "7167",
+    "name": "Salt Lake (South Jordan)",
+    "lat": 40.54631,
+    "long": -111.89701,
+    "city": "Salt Lake City",
+    "state": "ut"
+  },
+  {
+    "id": "7171",
+    "name": "Gastonia",
+    "lat": 35.27125,
+    "long": -81.15162,
+    "city": "Charlotte",
+    "state": "nc"
+  },
+  {
+    "id": "7172",
+    "name": "Clearwater",
+    "lat": 27.9163,
+    "long": -82.72675,
+    "city": "Tampa / Clearwater",
+    "state": "fl"
+  },
+  {
+    "id": "7173",
+    "name": "Kansas City",
+    "lat": 39.00615,
+    "long": -94.69352,
+    "city": "Kansas City",
+    "state": "ks"
+  },
+  {
+    "id": "7174",
+    "name": "Louisville",
+    "lat": 38.22233,
+    "long": -85.5762,
+    "city": "Louisville",
+    "state": "ky"
+  },
+  {
+    "id": "7175",
+    "name": "Cincinnati",
+    "lat": 39.30138,
+    "long": -84.52731,
+    "city": "Cincinnati",
+    "state": "oh"
+  },
+  {
+    "id": "7176",
+    "name": "Columbus Sawmill",
+    "lat": 40.10733,
+    "long": -83.0877,
+    "city": "Columbus OH",
+    "state": "oh"
+  },
+  {
+    "id": "7177",
+    "name": "Greenville",
+    "lat": 34.81051,
+    "long": -82.33315,
+    "city": "Greenville, SC",
+    "state": "sc"
+  },
+  {
+    "id": "7178",
+    "name": "Waukesha",
+    "lat": 43.03386,
+    "long": -88.17924,
+    "city": "Milwaukee",
+    "state": "wi"
+  },
+  {
+    "id": "7179",
+    "name": "Milwaukee",
+    "lat": 43.14444,
+    "long": -88.04927,
+    "city": "Milwaukee",
+    "state": "wi"
+  },
+  {
+    "id": "7180",
+    "name": "Merrillville",
+    "lat": 41.47387,
+    "long": -87.32022,
+    "city": "Chicago",
+    "state": "in"
+  },
+  {
+    "id": "7181",
+    "name": "Hulen Mall",
+    "lat": 32.68061,
+    "long": -97.40334,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "7183",
+    "name": "Potomac Mills",
+    "lat": 38.65142,
+    "long": -77.28561,
+    "city": "Baltimore / DC",
+    "state": "va"
+  },
+  {
+    "id": "7185",
+    "name": "Greensboro",
+    "lat": 36.06028,
+    "long": -79.86564,
+    "city": "Greensboro",
+    "state": "nc"
+  },
+  {
+    "id": "7186",
+    "name": "Chattanooga",
+    "lat": 35.04238,
+    "long": -85.15772,
+    "city": "Chattanooga",
+    "state": "tn"
+  },
+  {
+    "id": "7187",
+    "name": "Baton Rouge",
+    "lat": 30.3893,
+    "long": -91.06193,
+    "city": "Baton Rouge",
+    "state": "la"
+  },
+  {
+    "id": "7188",
+    "name": "Springfield",
+    "lat": 39.74047,
+    "long": -89.70148,
+    "city": "Champaign-Springfield",
+    "state": "il"
+  },
+  {
+    "id": "7190",
+    "name": "Austin South",
+    "lat": 30.21113,
+    "long": -97.7552,
+    "city": "Austin",
+    "state": "tx"
+  },
+  {
+    "id": "7191",
+    "name": "Tulsa",
+    "lat": 36.03081,
+    "long": -95.88637,
+    "city": "Tulsa",
+    "state": "ok"
+  },
+  {
+    "id": "7192",
+    "name": "Charleston",
+    "lat": 32.79505,
+    "long": -80.04173,
+    "city": "Charleston",
+    "state": "sc"
+  },
+  {
+    "id": "7193",
+    "name": "Mobile",
+    "lat": 30.67091,
+    "long": -88.12647,
+    "city": "Mobile",
+    "state": "al"
+  },
+  {
+    "id": "7194",
+    "name": "Albuquerque",
+    "lat": 35.18465,
+    "long": -106.58429,
+    "city": "Albuquerque-Santa Fe",
+    "state": "nm"
+  },
+  {
+    "id": "7195",
+    "name": "Irvine",
+    "lat": 33.63312,
+    "long": -117.73936,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7196",
+    "name": "Riverside",
+    "lat": 33.92944,
+    "long": -117.4116,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7197",
+    "name": "South Boulevard",
+    "lat": 35.0979,
+    "long": -80.8821,
+    "city": "Charlotte",
+    "state": "nc"
+  },
+  {
+    "id": "7198",
+    "name": "Miami Lakes",
+    "lat": 25.92438,
+    "long": -80.3025,
+    "city": "Miami",
+    "state": "fl"
+  },
+  {
+    "id": "7199",
+    "name": "Oak Lawn",
+    "lat": 41.71941,
+    "long": -87.77846,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7201",
+    "name": "Colorado Springs",
+    "lat": 38.89237,
+    "long": -104.71416,
+    "city": "Colorado Springs",
+    "state": "co"
+  },
+  {
+    "id": "7202",
+    "name": "Sample Rd (Pompano Beach)",
+    "lat": 26.27793,
+    "long": -80.11227,
+    "city": "Ft. Lauderdale",
+    "state": "fl"
+  },
+  {
+    "id": "7203",
+    "name": "Cy-Fair",
+    "lat": 29.9034,
+    "long": -95.60257,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "7204",
+    "name": "Lexington",
+    "lat": 37.99915,
+    "long": -84.44469,
+    "city": "Lexington",
+    "state": "ky"
+  },
+  {
+    "id": "7206",
+    "name": "Gaithersburg",
+    "lat": 39.12311,
+    "long": -77.17687,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7207",
+    "name": "Plano",
+    "lat": 33.0162,
+    "long": -96.77836,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  },
+  {
+    "id": "7208",
+    "name": "Glencoe (Edens Expy)",
+    "lat": 42.12328,
+    "long": -87.75583,
+    "city": "Chicago",
+    "state": "il"
+  },
+  {
+    "id": "7209",
+    "name": "Augusta",
+    "lat": 33.49057,
+    "long": -82.10864,
+    "city": "Augusta",
+    "state": "ga"
+  },
+  {
+    "id": "7210",
+    "name": "Jackson (MS)",
+    "lat": 32.38527,
+    "long": -90.17447,
+    "city": "Jackson MS",
+    "state": "ms"
+  },
+  {
+    "id": "7211",
+    "name": "Huntsville",
+    "lat": 34.74601,
+    "long": -86.68361,
+    "city": "Huntsville",
+    "state": "al"
+  },
+  {
+    "id": "7213",
+    "name": "Norman",
+    "lat": 35.24681,
+    "long": -97.48593,
+    "city": "Oklahoma City",
+    "state": "ok"
+  },
+  {
+    "id": "7218",
+    "name": "Memphis",
+    "lat": 35.20353,
+    "long": -89.80561,
+    "city": "Memphis",
+    "state": "tn"
+  },
+  {
+    "id": "7224",
+    "name": "Birmingham",
+    "lat": 33.3593,
+    "long": -86.83275,
+    "city": "Birmingham",
+    "state": "al"
+  },
+  {
+    "id": "7226",
+    "name": "Asheville",
+    "lat": 35.52851,
+    "long": -82.60632,
+    "city": "Greenville, SC",
+    "state": "nc"
+  },
+  {
+    "id": "7227",
+    "name": "Live Oak",
+    "lat": 29.54745,
+    "long": -98.3649,
+    "city": "San Antonio",
+    "state": "tx"
+  },
+  {
+    "id": "7230",
+    "name": "Daytona",
+    "lat": 29.16727,
+    "long": -81.08734,
+    "city": "Orlando",
+    "state": "fl"
+  },
+  {
+    "id": "7231",
+    "name": "Hickory",
+    "lat": 35.70636,
+    "long": -81.30151,
+    "city": "Charlotte",
+    "state": "nc"
+  },
+  {
+    "id": "7233",
+    "name": "Lancaster",
+    "lat": 40.07279,
+    "long": -76.33476,
+    "city": "Lancaster",
+    "state": "pa"
+  },
+  {
+    "id": "7234",
+    "name": "Turnersville",
+    "lat": 39.73523,
+    "long": -75.00438,
+    "city": "Philadelphia",
+    "state": "nj"
+  },
+  {
+    "id": "7240",
+    "name": "Dayton",
+    "lat": 39.64045,
+    "long": -84.23515,
+    "city": "Dayton",
+    "state": "oh"
+  },
+  {
+    "id": "7241",
+    "name": "Knoxville",
+    "lat": 35.90088,
+    "long": -84.15619,
+    "city": "Knoxville",
+    "state": "tn"
+  },
+  {
+    "id": "7242",
+    "name": "Midlothian",
+    "lat": 37.50316,
+    "long": -77.61752,
+    "city": "Richmond",
+    "state": "va"
+  },
+  {
+    "id": "7243",
+    "name": "Lithia Springs",
+    "lat": 33.78708,
+    "long": -84.61292,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7244",
+    "name": "West Sahara",
+    "lat": 36.14307,
+    "long": -115.23964,
+    "city": "Las Vegas",
+    "state": "nv"
+  },
+  {
+    "id": "7247",
+    "name": "Sanford",
+    "lat": 28.79522,
+    "long": -81.33938,
+    "city": "Orlando",
+    "state": "fl"
+  },
+  {
+    "id": "7248",
+    "name": "Oklahoma City",
+    "lat": 35.60895,
+    "long": -97.49231,
+    "city": "Oklahoma City",
+    "state": "ok"
+  },
+  {
+    "id": "7249",
+    "name": "Tucson",
+    "lat": 32.2928,
+    "long": -110.98073,
+    "city": "Tucson",
+    "state": "az"
+  },
+  {
+    "id": "7250",
+    "name": "Lynnwood",
+    "lat": 47.80542,
+    "long": -122.32618,
+    "city": "Seattle",
+    "state": "wa"
+  },
+  {
+    "id": "7252",
+    "name": "Renton",
+    "lat": 47.44647,
+    "long": -122.21847,
+    "city": "Seattle",
+    "state": "wa"
+  },
+  {
+    "id": "7255",
+    "name": "Vancouver",
+    "lat": 45.67409,
+    "long": -122.55243,
+    "city": "Portland, OR",
+    "state": "wa"
+  },
+  {
+    "id": "7257",
+    "name": "Brandywine",
+    "lat": 38.67922,
+    "long": -76.87215,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7258",
+    "name": "Loveland",
+    "lat": 40.42894,
+    "long": -104.9959,
+    "city": "Denver",
+    "state": "co"
+  },
+  {
+    "id": "7260",
+    "name": "Jacksonville West",
+    "lat": 30.21194,
+    "long": -81.73754,
+    "city": "Jacksonville",
+    "state": "fl"
+  },
+  {
+    "id": "7261",
+    "name": "Melbourne",
+    "lat": 28.05215,
+    "long": -80.65883,
+    "city": "Melbourne",
+    "state": "fl"
+  },
+  {
+    "id": "7262",
+    "name": "North Attleboro",
+    "lat": 41.95076,
+    "long": -71.35026,
+    "city": "Providence",
+    "state": "ma"
+  },
+  {
+    "id": "7264",
+    "name": "Fresno",
+    "lat": 36.83965,
+    "long": -119.8069,
+    "city": "Fresno",
+    "state": "ca"
+  },
+  {
+    "id": "7265",
+    "name": "Columbia",
+    "lat": 34.06468,
+    "long": -81.14196,
+    "city": "Columbia",
+    "state": "sc"
+  },
+  {
+    "id": "7267",
+    "name": "Wichita",
+    "lat": 37.67911,
+    "long": -97.21907,
+    "city": "Wichita",
+    "state": "ks"
+  },
+  {
+    "id": "7268",
+    "name": "Independence",
+    "lat": 39.03569,
+    "long": -94.35583,
+    "city": "Kansas City",
+    "state": "mo"
+  },
+  {
+    "id": "7270",
+    "name": "Omaha",
+    "lat": 41.26479,
+    "long": -96.19064,
+    "city": "Omaha",
+    "state": "ne"
+  },
+  {
+    "id": "7271",
+    "name": "King of Prussia",
+    "lat": 40.08353,
+    "long": -75.38452,
+    "city": "Philadelphia",
+    "state": "pa"
+  },
+  {
+    "id": "7272",
+    "name": "Torrance",
+    "lat": 33.86691,
+    "long": -118.35235,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7274",
+    "name": "Phoenix-West Valley",
+    "lat": 33.46298,
+    "long": -112.27241,
+    "city": "Phoenix",
+    "state": "az"
+  },
+  {
+    "id": "7276",
+    "name": "Warwick",
+    "lat": 41.73187,
+    "long": -71.47991,
+    "city": "Providence",
+    "state": "ri"
+  },
+  {
+    "id": "7278",
+    "name": "Winston-Salem",
+    "lat": 36.06994,
+    "long": -80.3333,
+    "city": "Winston-Salem",
+    "state": "nc"
+  },
+  {
+    "id": "7279",
+    "name": "Fayetteville",
+    "lat": 35.07884,
+    "long": -78.95638,
+    "city": "Fayetteville",
+    "state": "nc"
+  },
+  {
+    "id": "7280",
+    "name": "Reno",
+    "lat": 39.4279,
+    "long": -119.75841,
+    "city": "Reno",
+    "state": "nv"
+  },
+  {
+    "id": "7281",
+    "name": "Bakersfield",
+    "lat": 35.29324,
+    "long": -119.02827,
+    "city": "Bakersfield",
+    "state": "ca"
+  },
+  {
+    "id": "7282",
+    "name": "Capital Boulevard",
+    "lat": 35.89123,
+    "long": -78.55672,
+    "city": "Raleigh",
+    "state": "nc"
+  },
+  {
+    "id": "7283",
+    "name": "Columbus Easton",
+    "lat": 40.05807,
+    "long": -82.91692,
+    "city": "Columbus OH",
+    "state": "oh"
+  },
+  {
+    "id": "7284",
+    "name": "Rivergate",
+    "lat": 36.30749,
+    "long": -86.67899,
+    "city": "Nashville",
+    "state": "tn"
+  },
+  {
+    "id": "7285",
+    "name": "Clackamas",
+    "lat": 45.42403,
+    "long": -122.58279,
+    "city": "Portland, OR",
+    "state": "or"
+  },
+  {
+    "id": "7286",
+    "name": "Hartford",
+    "lat": 41.78728,
+    "long": -72.6633,
+    "city": "Hartford, CT",
+    "state": "ct"
+  },
+  {
+    "id": "7287",
+    "name": "East Haven",
+    "lat": 41.28858,
+    "long": -72.88642,
+    "city": "Hartford, CT",
+    "state": "ct"
+  },
+  {
+    "id": "7290",
+    "name": "Charlottesville",
+    "lat": 38.03215,
+    "long": -78.44658,
+    "city": "Charlottesville",
+    "state": "va"
+  },
+  {
+    "id": "7291",
+    "name": "Fredericksburg",
+    "lat": 38.24374,
+    "long": -77.50658,
+    "city": "Fredericksburg",
+    "state": "va"
+  },
+  {
+    "id": "7294",
+    "name": "Newport News",
+    "lat": 37.15745,
+    "long": -76.53475,
+    "city": "Newport News",
+    "state": "va"
+  },
+  {
+    "id": "7295",
+    "name": "Houston Katy Freeway",
+    "lat": 29.78701,
+    "long": -95.74228,
+    "city": "Houston",
+    "state": "tx"
+  },
+  {
+    "id": "7297",
+    "name": "Costa Mesa",
+    "lat": 33.68712,
+    "long": -117.91925,
+    "city": "Costa Mesa",
+    "state": "ca"
+  },
+  {
+    "id": "7298",
+    "name": "Roswell",
+    "lat": 34.06073,
+    "long": -84.32486,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7633",
+    "name": "Maplewood",
+    "lat": 45.0282,
+    "long": -93.04553,
+    "city": "Minneapolis / St. Paul",
+    "state": "mn"
+  },
+  {
+    "id": "7653",
+    "name": "Kearny Mesa",
+    "lat": 32.82184,
+    "long": -117.15697,
+    "city": "San Diego",
+    "state": "ca"
+  },
+  {
+    "id": "7654",
+    "name": "Escondido",
+    "lat": 33.12742,
+    "long": -117.09663,
+    "city": "San Diego",
+    "state": "ca"
+  },
+  {
+    "id": "7662",
+    "name": "Phoenix-Gilbert",
+    "lat": 33.29044,
+    "long": -111.76021,
+    "city": "Phoenix",
+    "state": "az"
+  },
+  {
+    "id": "7663",
+    "name": "Ellicott City",
+    "lat": 39.28234,
+    "long": -76.81324,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7807",
+    "name": "Kenosha",
+    "lat": 42.52399,
+    "long": -87.9686,
+    "city": "Milwaukee",
+    "state": "wi"
+  },
+  {
+    "id": "7810",
+    "name": "LAX",
+    "lat": 33.95845,
+    "long": -118.37018,
+    "city": "Los Angeles",
+    "state": "ca"
+  },
+  {
+    "id": "7954",
+    "name": "Timonium",
+    "lat": 39.46599,
+    "long": -76.63734,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7956",
+    "name": "Hurst",
+    "lat": 32.85746,
+    "long": -97.18406,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  }
+]

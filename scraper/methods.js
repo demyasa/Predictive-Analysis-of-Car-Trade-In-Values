@@ -2,6 +2,9 @@ const playwright = require('playwright');
 const { chromium, webkit, devices } = require('playwright');
 const fs = require('fs');
 
+const STORES = require('./STORES.json');
+
+
 /*
     HELPERS
 */
@@ -44,6 +47,25 @@ const carMaxSkrp = {
         await page.goto(URL, {waitUntil: "load", timeout: 60000});
         console.log('>> Initialized & Navigated to CarMax ...\n');
         await delay(2);
+    },
+    loadStores: async () => {
+        console.log('>> Loading in CarMax stores...\n');
+        return STORES;
+        
+    },
+    goToStoreUrl: async (storeId) => {
+        console.log(`>> Going to store: ${storeId}...\n`);
+        await delay(1);
+
+        await page.goto(`https://www.carmax.com/stores/${storeId}`, {waitUntil: "load", timeout: 60000});
+
+        await delay(1);
+
+        console.log(`>> At store: ${storeId}...\n`);
+
+        // Click Shop Local Cars if available
+        // Not Available at Peachtree GA location for instance
+
     },
     getStores: async () => {
         console.log('>> Going to Stores URL...\n');

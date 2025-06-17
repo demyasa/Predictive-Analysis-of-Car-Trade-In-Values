@@ -8,8 +8,17 @@ const CARMAX = require('./methods.js');
 
     await CARMAX.initialize();
 
+    let stores = await CARMAX.loadStores();
 
-await CARMAX.getStores();
+    for (let store of stores){
+        console.log('\n\nSTORE ID:')
+        console.log(store.id);
+
+        await CARMAX.goToStoreUrl(store.id);
+    }
+
+
+// await CARMAX.getStores();
     
     // await CARMAX.clickSearch();
 
