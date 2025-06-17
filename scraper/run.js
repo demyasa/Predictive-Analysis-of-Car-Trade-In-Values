@@ -6,15 +6,31 @@ const CARMAX = require('./methods.js');
 (async() => {
 
 
-    await CARMAX.initialize();
 
     let stores = await CARMAX.loadStores();
 
     for (let store of stores){
-        console.log('\n\nSTORE ID:')
-        console.log(store.id);
 
+        // Initialize Browser
+        await CARMAX.initialize();
+
+        // Go To Store
         await CARMAX.goToStoreUrl(store.id);
+
+        // Check if local website link to view cars is there or not
+
+        // Check for number of vehicles at store
+
+        // Scrape Car info from Store
+        // await CARMAX.scrapeData();
+
+        // Append Car Info
+
+
+        // Close browser
+
+
+
     }
 
 

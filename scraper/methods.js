@@ -26,6 +26,8 @@ const SEARCH_BTN = '//hzn-button[@class="hero-featured-content--cta"]';
 
 const SEE_MORE_BTN = '';
 
+const NUM_VEHICLES = '//div[contains(@id, "search-results")]/div/span[@id="number-of-matches"]';
+
 
 /*
     METHODS
@@ -62,8 +64,24 @@ const carMaxSkrp = {
         await delay(1);
 
         console.log(`>> At store: ${storeId}...\n`);
-
+        
         // Click Shop Local Cars if available
+        
+        let storePage = await page.locator(`//a[@data-storeid=${storeId}]`).count()
+
+        if (!storePage) {
+            console.log(`>> No Local Cars for storeId: ${storeId}...\n`);
+
+        } else {
+            
+            await page.locator(`//a[@data-storeid=${storeId}]`).click()
+            console.log(`>> Navigating to storeId: ${storeId}...\n`);
+            
+            let vehicleElement = await page.locator(NUM_VEHICLES);
+            let vehicleCount = await vehicleElement.innerText();
+            console.log(`>> Vehicle Count: ${vehicleCount} at store: ${storeId}...\n`);
+        }
+
         // Not Available at Peachtree GA location for instance
 
     },
