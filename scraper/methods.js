@@ -60,6 +60,36 @@ const carMaxSkrp = {
         console.log('>> Clicked See More button...\n');
 
     },
+    interceptRequest: async () => {
+        // console.log('>> Attempting to Intercept HTTP Request on See More...');
+  
+        // Intercept requests
+        // const responsePromise = page.waitForResponse(""); // no await
+
+        const responsePromise = page.waitForResponse(response => response.url().includes("cars/api/search/run"));
+
+  
+        let loc = await page.getByText('See More Matches');
+  
+        // Click your button
+        await loc.click();
+        // console.log('>> Clicked See More Matches...');
+  
+        // Await those intercepted requests now
+        const resp = await responsePromise;
+  
+        // Check requests status
+        // expect(response1.status()).toBe(200);
+  
+        // Get the request's body and print it
+        const data = await resp.json();
+
+
+        // console.log('>> Successfully Intercepted HTTP Request on See More Matches...');
+        // console.log(data.items);
+        // console.log(data.items.length);
+        return data.items;
+      },
     scrapeData: async (obj) => {
         await delay(2);
         let newObj = { ...obj };
