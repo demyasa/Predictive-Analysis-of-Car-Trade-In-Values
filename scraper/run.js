@@ -10,6 +10,22 @@ const CARMAX = require('./methods.js');
 
     
     await CARMAX.clickSearch();
+
+    await CARMAX.checkSeeMore();
+
+    // (1) Need to get button to click See More
+
+
+    // (2) Need to have method monitor for the http request
+    //  - add a contains within the parameters some how?
+
+
+    // (3) Click See More -> Intercept Request -> Repeat
+
+
+    // (4) Offload into JSON file
+
+
     // await CARMAX.navigateToMarketReport();
     // let newObjs = [];
     // let restructuredArr = restructured[i];
@@ -24,6 +40,8 @@ const CARMAX = require('./methods.js');
     // // Close browser
     // await CARMAX.end();
     // console.log(`>> Stored We Buy Vehicle Infos in JSON: {-1}...`);
+
+
 })();
 
 

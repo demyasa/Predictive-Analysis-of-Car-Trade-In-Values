@@ -20,6 +20,8 @@ const URL = "https://www.carmax.com/";
 
 const SEARCH_BTN = '//hzn-button[@class="hero-featured-content--cta"]';
 
+const SEE_MORE_BTN = '';
+
 
 /*
     METHODS
@@ -47,6 +49,16 @@ const carMaxSkrp = {
         await page.locator(SEARCH_BTN).click();
         await delay(3);
         console.log('>> Clicked Search...\n');
+    },
+    checkSeeMore: async () => {
+        console.log('>> Checking if See More button is Present...\n');
+        
+        let clickNext = await page.getByText('See More Matches');
+        await delay(1);
+        await clickNext.click();
+        await delay(2);
+        console.log('>> Clicked See More button...\n');
+
     },
     scrapeData: async (obj) => {
         await delay(2);
