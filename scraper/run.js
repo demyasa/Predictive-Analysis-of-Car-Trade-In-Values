@@ -27,14 +27,17 @@ Object.defineProperty(Array.prototype, 'flat', {
         let storeAvailable = await CARMAX.goToStoreUrl(store.id);
 
         if (storeAvailable) {
+            let vehicleInfos = [];
+            // Handle Edge case of missing first batch of vehicles
+            let firstBatch = await CARMAX.interceptFirstClick(store.id);
+            vehicleInfos.push(firstBatch)
             // Extract # of vehicles at local store to establish pagination
             let vehicleTotal = await CARMAX.getVehicleTotal();
             let lastIdx = vehicleTotal / 24;
             console.log('Last Index: ', lastIdx);
             let i = 0;
             // Main Data
-            let vehicleInfos = [];
-            while (i < lastIdx) {
+            while (i < lastIdx + 1) {
                 // Gather information from network requests
                 console.log(`>>>>Gathering Info on Batch ${i}/${lastIdx}`);
                 let data = await CARMAX.interceptRequest();

@@ -1,6 +1,7 @@
 const playwright = require('playwright');
 const { chromium, webkit, devices } = require('playwright');
 const fs = require('fs');
+const jsdom = require("jsdom");
 
 const STORES = require('./STORES.json');
 
@@ -70,13 +71,55 @@ const carMaxSkrp = {
             console.log(`>> No Local Cars for storeId: ${storeId}...\n`);
             return false;
         } else {
-            await page.locator(`//a[@data-storeid=${storeId}]`).click()
-            await delay(1);
             console.log(`>> Navigating to local storeId: ${storeId}...\n`);
             return true;
         }
 
         // Not Available at Peachtree GA location for instance
+    },
+    interceptFirstClick: async (storeId) => {
+
+        await delay(1);
+        const responsePromise = page.waitForResponse(response => response.url().includes(`cars/${storeId}`));
+
+  
+        let firstClick = await page.locator(`//a[@data-storeid=${storeId}]`);
+  
+        // Click button
+        await firstClick.click();
+  
+        // Await those intercepted requests now
+        // const resp = await responsePromise;
+
+        await delay(2);
+
+        const htmlContent = await page.content();
+
+        let htmlString = JSON.stringify(htmlContent);
+        
+        
+        // ----------> YOU ARE HERE <---------- //
+        // ----------> YOU ARE HERE <---------- //
+        // ----------> YOU ARE HERE <---------- //
+
+        // Split up the string at 
+        // (1) "const cars = ""
+        // (2) "Polyfill"
+
+        // Make this prettier eventually
+        let firstSplit = htmlString.split('const cars = ')[1];
+        let secondSplit = firstSplit.split('// Polyfill')[0];
+        let thirdSplit = secondSplit.trim();
+        // Remove the / (forward slashes)
+        let fourthSplit = thirdSplit.split("\\").join("");
+        let parsedContent = fourthSplit.split(";n")[0];
+
+        // This is a check
+        // fs.writeFileSync(`parsedContent.json`, parsedContent);
+
+        let finalParsed = JSON.parse(parsedContent)
+        return finalParsed;
+
     },
     getVehicleTotal: async () => {
         await delay(1);

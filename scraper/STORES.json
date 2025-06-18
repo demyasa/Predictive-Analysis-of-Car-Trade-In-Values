@@ -1,13 +1,5 @@
 [
   {
-    "id": "4400",
-    "name": "Peachtree",
-    "lat": 33.89543,
-    "long": -84.30492,
-    "city": "Atlanta",
-    "state": "ga"
-  },
-  {
     "id": "6001",
     "name": "Newark",
     "lat": 39.68195,
