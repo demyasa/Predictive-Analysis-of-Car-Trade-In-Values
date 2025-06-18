@@ -122,10 +122,19 @@ const carMaxSkrp = {
 
     },
     getVehicleTotal: async () => {
+
         await delay(1);
         let vehicleElement = await page.locator(NUM_VEHICLES);
+        await delay(1);
         let vehicleCount = await vehicleElement.innerText();
-        console.log(`>> Vehicle Count: ${vehicleCount}...\n`);
+        console.log(`{{{ getVehicleTotal }}} Vehicle Count: ${vehicleCount}...\n`);
+        console.log(`{{{ getVehicleTotal }}} TypeOf Vehicle Count ${typeof(vehicleCount)}`);
+        // Remove comma
+        vehicleCount = vehicleCount.split(",").join("");
+        // Convert to number
+        vehicleCount = parseInt(vehicleCount);
+        console.log(`{{{ getVehicleTotal }}} Vehicle Count: ${vehicleCount}...\n`);
+        console.log(`{{{ getVehicleTotal }}} TypeOf Vehicle Count ${typeof(vehicleCount)}`);
         return vehicleCount;
     },
     getStores: async () => {
@@ -176,10 +185,12 @@ const carMaxSkrp = {
 
   
         let loc = await page.getByText('See More Matches');
+        await delay(1);
   
         // Click your button
         await loc.click();
   
+        await delay(1);
         // Await those intercepted requests now
         const resp = await responsePromise;
   
@@ -222,7 +233,7 @@ const carMaxSkrp = {
     end: async () => {
         // STEP 7: CLOSE BROWSER
         console.log('Closing browser in 5 seconds...')
-        await delay(2)
+        await delay(5)
         await browser.close();
     }
 }

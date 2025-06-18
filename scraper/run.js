@@ -33,11 +33,13 @@ Object.defineProperty(Array.prototype, 'flat', {
             vehicleInfos.push(firstBatch)
             // Extract # of vehicles at local store to establish pagination
             let vehicleTotal = await CARMAX.getVehicleTotal();
+            console.log("VEHICLE TOTAL: ", vehicleTotal)
+            console.log("TYPE OF VAR VEHICLE TOTAL: ", typeof(vehicleTotal))
             let lastIdx = vehicleTotal / 24;
             console.log('Last Index: ', lastIdx);
             let i = 0;
             // Main Data
-            while (i < lastIdx + 1) {
+            while (i < lastIdx - 1) {
                 // Gather information from network requests
                 console.log(`>>>>Gathering Info on Batch ${i}/${lastIdx}`);
                 let data = await CARMAX.interceptRequest();
