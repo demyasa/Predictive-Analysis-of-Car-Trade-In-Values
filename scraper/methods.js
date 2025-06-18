@@ -56,34 +56,34 @@ const carMaxSkrp = {
         
     },
     goToStoreUrl: async (storeId) => {
+        // Go To Store URL
         console.log(`>> Going to store: ${storeId}...\n`);
         await delay(1);
 
         await page.goto(`https://www.carmax.com/stores/${storeId}`, {waitUntil: "load", timeout: 60000});
-
         await delay(1);
-
-        console.log(`>> At store: ${storeId}...\n`);
         
-        // Click Shop Local Cars if available
-        
+        // Check if Link to Shop Local Cars is Available
         let storePage = await page.locator(`//a[@data-storeid=${storeId}]`).count()
 
         if (!storePage) {
             console.log(`>> No Local Cars for storeId: ${storeId}...\n`);
-
+            return false;
         } else {
-            
             await page.locator(`//a[@data-storeid=${storeId}]`).click()
-            console.log(`>> Navigating to storeId: ${storeId}...\n`);
-            
-            let vehicleElement = await page.locator(NUM_VEHICLES);
-            let vehicleCount = await vehicleElement.innerText();
-            console.log(`>> Vehicle Count: ${vehicleCount} at store: ${storeId}...\n`);
+            await delay(1);
+            console.log(`>> Navigating to local storeId: ${storeId}...\n`);
+            return true;
         }
 
         // Not Available at Peachtree GA location for instance
-
+    },
+    getVehicleTotal: async () => {
+        await delay(1);
+        let vehicleElement = await page.locator(NUM_VEHICLES);
+        let vehicleCount = await vehicleElement.innerText();
+        console.log(`>> Vehicle Count: ${vehicleCount}...\n`);
+        return vehicleCount;
     },
     getStores: async () => {
         console.log('>> Going to Stores URL...\n');
@@ -127,11 +127,8 @@ const carMaxSkrp = {
 
     },
     interceptRequest: async () => {
-        // console.log('>> Attempting to Intercept HTTP Request on See More...');
-  
-        // Intercept requests
-        // const responsePromise = page.waitForResponse(""); // no await
 
+        await delay(1);
         const responsePromise = page.waitForResponse(response => response.url().includes("cars/api/search/run"));
 
   
@@ -139,7 +136,6 @@ const carMaxSkrp = {
   
         // Click your button
         await loc.click();
-        // console.log('>> Clicked See More Matches...');
   
         // Await those intercepted requests now
         const resp = await responsePromise;
@@ -154,6 +150,7 @@ const carMaxSkrp = {
         // console.log('>> Successfully Intercepted HTTP Request on See More Matches...');
         // console.log(data.items);
         // console.log(data.items.length);
+        await delay(1);
         return data.items;
       },
     scrapeData: async (obj) => {

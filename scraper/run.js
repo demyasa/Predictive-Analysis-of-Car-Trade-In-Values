@@ -3,9 +3,18 @@ const { chromium, webkit, devices } = require('playwright');
 const fs = require('fs');
 const CARMAX = require('./methods.js');
 
+/*
+    Flatten Array Helper
+*/
+Object.defineProperty(Array.prototype, 'flat', {
+    value: function(depth = 1) {
+      return this.reduce(function (flat, toFlatten) {
+        return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
+      }, []);
+    }
+});
+
 (async() => {
-
-
 
     let stores = await CARMAX.loadStores();
 
@@ -15,21 +24,39 @@ const CARMAX = require('./methods.js');
         await CARMAX.initialize();
 
         // Go To Store
-        await CARMAX.goToStoreUrl(store.id);
+        let storeAvailable = await CARMAX.goToStoreUrl(store.id);
 
-        // Check if local website link to view cars is there or not
+        if (storeAvailable) {
+            // Extract # of vehicles at local store to establish pagination
+            let vehicleTotal = await CARMAX.getVehicleTotal();
+            let lastIdx = vehicleTotal / 24;
+            console.log('Last Index: ', lastIdx);
+            let i = 0;
+            // Main Data
+            let vehicleInfos = [];
+            while (i < lastIdx) {
+                // Gather information from network requests
+                console.log(`>>>>Gathering Info on Batch ${i}/${lastIdx}`);
+                let data = await CARMAX.interceptRequest();
+                vehicleInfos.push(data);
+                i++;
+            }
+            // Flatten array before appending?
+            console.log(`Vehicle Infos Before Flatten: ${vehicleInfos.length}`);
+            vehicleInfos = vehicleInfos.flat();
+            console.log(`Vehicle Infos After Flatten: ${vehicleInfos.length}`);
+            // Append local store info to main data file
+            await CARMAX.jsonizeAppend(vehicleInfos, "CarMax-6-17-25");
+            // Close browser
+            await CARMAX.end();
+        } else {
+            // Handle storeIds without available local store links
+            console.log(`No data for ${store.id}`);
+            // Append empty vehicleInfos?
+            // Close browser
+            await CARMAX.end();
 
-        // Check for number of vehicles at store
-
-        // Scrape Car info from Store
-        // await CARMAX.scrapeData();
-
-        // Append Car Info
-
-
-        // Close browser
-
-
+        }
 
     }
 
