@@ -223,7 +223,7 @@ const carMaxSkrp = {
         fs.writeFileSync(`${fileName}.json`, json);
     },
     jsonizeAppend: async (arr, fileName) => {
-        let json = JSON.stringify(arr);
+        let json = JSON.stringify(JSON.parse(arr));
         // string.slice(startingindex, endingindex);
         json = json.slice(1,-1)
         json = "," + json

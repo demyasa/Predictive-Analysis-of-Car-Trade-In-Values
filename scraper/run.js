@@ -51,7 +51,7 @@ Object.defineProperty(Array.prototype, 'flat', {
             vehicleInfos = vehicleInfos.flat();
             console.log(`Vehicle Infos After Flatten: ${vehicleInfos.length}`);
             // Append local store info to main data file
-            await CARMAX.jsonizeAppend(vehicleInfos, "CarMax-6-17-25");
+            await CARMAX.jsonizeAppend(vehicleInfos, "CarMax-6-22-25");
             // Close browser
             await CARMAX.end();
         } else {
