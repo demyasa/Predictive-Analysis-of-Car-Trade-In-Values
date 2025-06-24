@@ -14,6 +14,7 @@ Object.defineProperty(Array.prototype, 'flat', {
     }
 });
 
+
 (async() => {
 
     let stores = await CARMAX.loadStores();
@@ -22,6 +23,8 @@ Object.defineProperty(Array.prototype, 'flat', {
 
         // Initialize Browser
         await CARMAX.initialize();
+
+        // Get Date here or witihin a carmax method
 
         // Go To Store
         let storeAvailable = await CARMAX.goToStoreUrl(store.id);
@@ -35,13 +38,13 @@ Object.defineProperty(Array.prototype, 'flat', {
             let vehicleTotal = await CARMAX.getVehicleTotal();
             console.log("VEHICLE TOTAL: ", vehicleTotal)
             console.log("TYPE OF VAR VEHICLE TOTAL: ", typeof(vehicleTotal))
-            let lastIdx = vehicleTotal / 24;
+            let lastIdx = Math.ceil(vehicleTotal / 24);
             console.log('Last Index: ', lastIdx);
             let i = 0;
             // Main Data
             while (i < lastIdx - 1) {
                 // Gather information from network requests
-                console.log(`>>>>Gathering Info on Batch ${i}/${lastIdx}`);
+                console.log(`>>>>Gathering Info on Batch ${i+1}/${lastIdx}`);
                 let data = await CARMAX.interceptRequest();
                 vehicleInfos.push(data);
                 i++;
@@ -51,7 +54,7 @@ Object.defineProperty(Array.prototype, 'flat', {
             vehicleInfos = vehicleInfos.flat();
             console.log(`Vehicle Infos After Flatten: ${vehicleInfos.length}`);
             // Append local store info to main data file
-            await CARMAX.jsonizeAppend(vehicleInfos, "CarMax-6-22-25");
+            await CARMAX.jsonizeStore(vehicleInfos, `${store.id}`);
             // Close browser
             await CARMAX.end();
         } else {
@@ -66,7 +69,9 @@ Object.defineProperty(Array.prototype, 'flat', {
     }
 
 
-// await CARMAX.getStores();
+
+// (async() => {
+    // await CARMAX.getStores();
     
     // await CARMAX.clickSearch();
 

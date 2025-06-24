@@ -1,6 +1,7 @@
 const playwright = require('playwright');
 const { chromium, webkit, devices } = require('playwright');
 const fs = require('fs');
+const path = require('path');
 const jsdom = require("jsdom");
 
 const STORES = require('./STORES.json');
@@ -10,11 +11,24 @@ const STORES = require('./STORES.json');
     HELPERS
 */
 
+// Delay Helper
+
 const delay = function (second = 1) {   // Delay Helper
     return new Promise(resolve => {
       setTimeout(() => resolve(second * 1000), second * 1000)
     });
 };
+
+// Get Date Helper
+
+const getTodaysDate = function getTodaysDate() {
+    const today = new Date();
+    let todayStr = today.toLocaleDateString();
+    // Replace / with _
+    todayStr = todayStr.replaceAll('/', '_');
+    console.log(`Date: ${todayStr}\n`); 
+    return todayStr
+}
 
 /*
     VARIABLES
@@ -78,33 +92,15 @@ const carMaxSkrp = {
         // Not Available at Peachtree GA location for instance
     },
     interceptFirstClick: async (storeId) => {
-
         await delay(1);
-        const responsePromise = page.waitForResponse(response => response.url().includes(`cars/${storeId}`));
-
-  
         let firstClick = await page.locator(`//a[@data-storeid=${storeId}]`);
   
         // Click button
         await firstClick.click();
-  
-        // Await those intercepted requests now
-        // const resp = await responsePromise;
-
         await delay(2);
 
         const htmlContent = await page.content();
-
         let htmlString = JSON.stringify(htmlContent);
-        
-        
-        // ----------> YOU ARE HERE <---------- //
-        // ----------> YOU ARE HERE <---------- //
-        // ----------> YOU ARE HERE <---------- //
-
-        // Split up the string at 
-        // (1) "const cars = ""
-        // (2) "Polyfill"
 
         // Make this prettier eventually
         let firstSplit = htmlString.split('const cars = ')[1];
@@ -113,9 +109,6 @@ const carMaxSkrp = {
         // Remove the / (forward slashes)
         let fourthSplit = thirdSplit.split("\\").join("");
         let parsedContent = fourthSplit.split(";n")[0];
-
-        // This is a check
-        // fs.writeFileSync(`parsedContent.json`, parsedContent);
 
         let finalParsed = JSON.parse(parsedContent)
         return finalParsed;
@@ -217,18 +210,34 @@ const carMaxSkrp = {
         newObj["Value"] = Value;
 
     },
+    jsonizeStore: async (myData, storeId) => {
+        // Get todays date
+        let todaysDate = getTodaysDate();
+
+        // Create a 'data' directory in your project
+        const directoryPath = `./data/${todaysDate}/`;
+        const fileName = `${storeId}.json`;
+        const filePath = path.join(directoryPath, fileName);
+
+        // Create the directory if it doesn't exist
+        if (!fs.existsSync(directoryPath)) {
+            fs.mkdirSync(directoryPath, { recursive: true });
+        }
+
+        // Convert the JavaScript object to a pretty-printed JSON string
+        const jsonDataString = JSON.stringify(myData, null, 2);
+
+        // Write the JSON string to the file
+        try {
+            fs.writeFileSync(filePath, jsonDataString);
+            console.log(`{{{ jsonize }}} Writing file to data/${todaysDate}/${storeId}.json`);
+        } catch (err) {
+            console.error('Error writing JSON data:', err);
+        }
+    },
     jsonizeWrite: async (arr, fileName) => {
         let json = JSON.stringify(arr);
-        // console.log("JSON JSON JSON: ", json)
         fs.writeFileSync(`${fileName}.json`, json);
-    },
-    jsonizeAppend: async (arr, fileName) => {
-        let json = JSON.stringify(JSON.parse(arr));
-        // string.slice(startingindex, endingindex);
-        json = json.slice(1,-1)
-        json = "," + json
-        // console.log("JSON JSON JSON: ", json)
-        fs.appendFileSync(`${fileName}.json`, json);
     },
     end: async () => {
         // STEP 7: CLOSE BROWSER
