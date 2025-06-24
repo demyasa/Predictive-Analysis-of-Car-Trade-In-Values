@@ -6,8 +6,6 @@ This project seeks to predict prices for used vehicles in the automotive industr
 
 ## Repository Contents
 
-## Code Library
-
 ### Data Extraction: 
 
 Web Scraping method that details the steps taken to extract and store data from Carmax using `NodeJS` and the `Playwright` JavaScript library. Initial storage method uses the `fs` library to set up a filesystem
