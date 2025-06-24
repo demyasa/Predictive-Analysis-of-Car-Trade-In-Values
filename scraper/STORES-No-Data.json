@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4400",
+    "name": "Peachtree",
+    "lat": 33.750123,
+    "long": -84.388567,
+    "city": "Atlanta",
+    "state": "ga"
+  },
+  {
+    "id": "7954",
+    "name": "Timonium",
+    "lat": 39.46599,
+    "long": -76.63734,
+    "city": "Baltimore / DC",
+    "state": "md"
+  },
+  {
+    "id": "7956",
+    "name": "Hurst",
+    "lat": 32.85746,
+    "long": -97.18406,
+    "city": "Dallas / Ft. Worth",
+    "state": "tx"
+  }
+]
