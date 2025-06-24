@@ -187,16 +187,9 @@ const carMaxSkrp = {
         // Await those intercepted requests now
         const resp = await responsePromise;
   
-        // Check requests status
-        // expect(response1.status()).toBe(200);
-  
         // Get the request's body and print it
         const data = await resp.json();
 
-
-        // console.log('>> Successfully Intercepted HTTP Request on See More Matches...');
-        // console.log(data.items);
-        // console.log(data.items.length);
         await delay(1);
         return data.items;
       },
