@@ -22,5 +22,13 @@
     "long": -97.18406,
     "city": "Dallas / Ft. Worth",
     "state": "tx"
+  },
+  {
+    "id": "0001",
+    "name": "Idi",
+    "lat": 12.85746,
+    "long": -84.18406,
+    "city": "St. Nahui",
+    "state": "la"
   }
 ]
