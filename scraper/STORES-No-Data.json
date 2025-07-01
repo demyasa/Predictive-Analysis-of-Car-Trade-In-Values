@@ -35,8 +35,16 @@
     "id": "0002",
     "name": "Idi",
     "lat": 12.85746,
-    "long": -84.18406,
+    "long": -69.18406,
     "city": "St. Nahui Place",
     "state": "ng"
+  },
+  {
+    "id": "0003",
+    "name": "Test Name",
+    "lat": 69.85746,
+    "long": -84.18406,
+    "city": "Test Place",
+    "state": "tp"
   }
 ]
