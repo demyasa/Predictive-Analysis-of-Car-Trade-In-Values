@@ -30,5 +30,13 @@
     "long": -84.18406,
     "city": "St. Nahui",
     "state": "la"
+  },
+  {
+    "id": "0002",
+    "name": "Idi",
+    "lat": 12.85746,
+    "long": -84.18406,
+    "city": "St. Nahui Place",
+    "state": "ng"
   }
 ]
